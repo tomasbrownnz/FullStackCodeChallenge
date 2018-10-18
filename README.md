@@ -14,7 +14,7 @@ Make sure you have the latest versions of Laravel, Valet, Composer and MySQL ins
 1) Change directory to where you would normally create Laravel projects.
 1) Create new Laravel project called 'toDoApp' by running command `laravel new toDoApp`
 1) Copy files from this repository over to this directory and allow the system to replace the duplicate files.
-1) Alter your '.env' file to comply with your MySQL parameters by entering your **username** and **password** into the variables:
+1) Alter your '.env' file to comply with your MySQL parameters by entering **toDoApp** under `DB_DATABASE` and your **username** and **password** into the `DB_USERNAME` and `DB_PASSWORD` variables:
 
 `DB_CONNECTION=mysql`
 
